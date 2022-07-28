@@ -1,0 +1,87 @@
+html{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Square Peg', cursive;
+background-color: #FF66C4;
+}
+
+body{
+    width: 700px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 0 20px 70px 20px;
+    border: 5px solid black;
+}
+.itsMe{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 50px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+}
+.column1{
+    padding: 10px;   
+}
+.column1 li{
+    text-align: left;
+   
+}
+.column3{
+    padding: 10px;   
+}
+.column3 li{
+    text-align: left;
+   
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+.thisIsMe{
+    font-size: 42px;
+    margin-top: 0;
+    
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+}
+ul{
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 50px;
+    list-style-image: url("../images/ray.png");
+}
+
+a{
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #fce6f3;
+    border: 2px solid #c25097;
+    border-radius:  15px;
+    padding: 20px;
+    transition: padding 0.2s ease-in;
+    box-shadow: 0 0 0 0.5px #c25097, 0 10px 0 0 #f5a9d7;
+}
+a:hover{
+    padding: 15px 20px 20px 20px;
+    box-shadow: 0 0 0 1px #c25097, 0 8px 0 0 #f5a9d7;
+    background-color: #fcdcef;
+
+}
+
+.buttonLink{
+    margin-top: 50px;
+}
